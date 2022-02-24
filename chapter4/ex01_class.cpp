@@ -1,16 +1,9 @@
 #include <iostream>
 #include <string>
+#include "Circle.cpp" //현재 디렉토리에서 먼저 찾아라
+//#include <Circle.cpp> 라이브러리 디렉토리에서 찾아라
 using namespace std;
 
-class Circle {
-    public:
-        int radius;
-        string color;
-
-        double calcArea() {
-            return 3.14 * radius * radius;
-        }
-};
 
 int main(int argc, char const *argv[])
 {

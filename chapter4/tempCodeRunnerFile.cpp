@@ -1,1 +1,1 @@
-obj.color = "blue";
+#include <iostream>
