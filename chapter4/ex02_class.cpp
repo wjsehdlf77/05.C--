@@ -1,7 +1,6 @@
 #include <iostream>
-#include <string>
-#include "Circle.cpp"
-using namespace std;
+#include "Circle.h"
+
 
 int main(int argc, char const *argv[])
 {
